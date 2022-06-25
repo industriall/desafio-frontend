@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    padding: 0 2rem;
+    border: 1px;
+    border-color: #C0C1C6;
+    border-bottom-style: solid;
+}
+
+.container h1{
+    color: #312F2F;
+    font-size: 1rem;
+}
+
+.container p{
+    color:#5C5958;
+    font-size: 14px;
+}
+
+.icons{
+    margin-left: auto;
+    align-self: center;
+}

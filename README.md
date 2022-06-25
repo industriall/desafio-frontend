@@ -1,3 +1,6 @@
+## Execute npm install e npm run dev para executar o projeto
+
+
 ## Visão Geral - Contexto do desafio
 
 Você é responsável por implementar o nosso módulo de gestão de atas de reunião dentro da indústria! O módulo de atas permite criar atas online com base nos templates existentes, listá-las e organizá-las.
