@@ -77,14 +77,14 @@ export function MeetingForm() {
   }
 
   async function handleDeleteMeet(id: number) {
+    setIsLoading(true);
     try {
-      setIsLoading(true);
       const response = await api.delete(`/Atas/${id}`);
 
       const { message } = response.data;
 
-      loadData();
       toast.success(message);
+      loadData();
     } catch (error) {
       toast.error("Erro ao tentar excluir ata, contate o suporte");
     } finally {
