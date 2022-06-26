@@ -35,14 +35,14 @@ export const Content = styled.div`
 
 export const HeaderTitle = styled.div`
   h1 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 700;
     font-size: 24px;
     color: var(--blue-dark);
   }
 
   h2 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 400;
     font-size: 20px;
     color: var(--gray-dark);
@@ -88,7 +88,7 @@ export const Identifier = styled.div`
     width: 109px;
     height: 24px;
     color: var(--gray-medium);
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -103,7 +103,7 @@ export const ContainerInputSelect = styled.div`
   margin-top: 17.5px;
 
   select {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -135,7 +135,7 @@ export const ContainerInputSelect = styled.div`
   }
 
   label {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -167,7 +167,7 @@ export const ContainerInput = styled.div`
   margin-top: 17.5px;
 
   input {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -195,7 +195,7 @@ export const ContainerInput = styled.div`
   }
 
   label {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -238,7 +238,7 @@ export const MeetContainer = styled.div`
   margin-right: 33px;
 
   h1 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -271,7 +271,7 @@ export const MeetSubtitle = styled.div`
   justify-content: center;
 
   h1 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-style: italic;
     font-weight: 400;
     font-size: 16px;
@@ -288,7 +288,7 @@ export const MeetInputContainer = styled.div`
   height: 100%;
   margin-top: 20px;
   h1 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -338,7 +338,7 @@ export const ButtonContent = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 700;
     font-size: 16px;
     color: var(--gray-dark);
@@ -360,7 +360,7 @@ export const ButtonContent = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 700;
     font-size: 16px;
     color: var(--gray-lightest);

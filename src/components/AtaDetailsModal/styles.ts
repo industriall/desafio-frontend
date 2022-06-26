@@ -18,14 +18,14 @@ export const LoadingContainer = styled.div`
 
 export const Content = styled.div`
   h1 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 700;
     font-size: 20px;
     color: var(--blue-dark);
   }
 
   h2 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 400;
     font-size: 16px;
     color: var(--gray-dark);

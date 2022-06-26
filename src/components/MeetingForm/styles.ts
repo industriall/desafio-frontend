@@ -34,7 +34,7 @@ export const Content = styled.div`
   a {
     background-color: var(--blue-light);
     color: var(--black);
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@ export const Content = styled.div`
 
 export const HeaderTitle = styled.div`
   h1 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 700;
     font-size: 24px;
     color: var(--blue-dark);
   }
 
   h2 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 400;
     font-size: 20px;
     color: var(--gray-dark);
@@ -103,7 +103,7 @@ export const AtaContainer = styled.div`
   padding: 29px 31.5px 35px 31.5px;
 
   h1 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 700;
     font-size: 20px;
     color: var(--blue-dark);
@@ -119,14 +119,14 @@ export const Card = styled.div`
 `;
 export const Title = styled.div`
   h1 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 700;
     font-size: 16px;
     color: var(--black);
   }
 
   h2 {
-    font-family: "Calibri";
+    font-family: "Open sans";
     font-weight: 400;
     font-size: 14px;
     color: var(--gray-dark);

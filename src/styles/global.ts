@@ -44,13 +44,16 @@ export const GlobalStyle = createGlobalStyle`
     background: var(--gray-lightest);
   }
 
-body,
-input,
-textarea,
-button {
+  body,
+  input,
+  textarea,
+  h1,
+  h2,
+  h3,
+  h4,
+  label,
+  button {
   font-family: "Open sans", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
 }
 
   button { 
