@@ -123,6 +123,16 @@ export function FormRegister() {
           toast.warn("Por favor, preencha os campos obrigatórios");
           return;
         } else {
+          aux = [
+            {
+              campoId: 4,
+              valor: endSprint,
+            },
+            {
+              campoId: 6,
+              valor: textArea,
+            },
+          ];
         }
       }
 

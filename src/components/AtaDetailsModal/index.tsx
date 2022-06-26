@@ -40,7 +40,6 @@ interface AtaDetailsModalProps {
 export function AtaDetailsModal({
   isOpen,
   onRequestClose,
-  ariaHideApp,
   id,
 }: AtaDetailsModalProps) {
   const [ataReuniaoId, setAtaReuniaoId] = useState<FormProps[]>([]);
@@ -66,8 +65,6 @@ export function AtaDetailsModal({
       loadAtaId();
     }
   }, [id]);
-
-  console.log(ataReuniaoId);
 
   return (
     <Modal
