@@ -65,8 +65,8 @@ export function MeetingForm() {
   }
 
   async function loadData() {
+    setIsLoading(true);
     try {
-      setIsLoading(true);
       const response = await api.get("/Atas");
       setMeetData(response.data);
     } catch (error) {
@@ -83,8 +83,9 @@ export function MeetingForm() {
 
       const { message } = response.data;
 
-      toast.success(message);
       loadData();
+
+      toast.success(message);
     } catch (error) {
       toast.error("Erro ao tentar excluir ata, contate o suporte");
     } finally {
@@ -128,7 +129,6 @@ export function MeetingForm() {
               isOpen={!!isAtaDetailsModalOpen}
               onRequestClose={handleCloseAtaDetailsModal}
               id={id}
-              ariaHideApp={false}
             />
             <FormContent>
               {okrs.length > 0 ? (
